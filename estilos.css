@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+.cajaUno{
+    height: 100vh;
+    background-color: blue;
+}
+
+.cajaDos{
+    height: 100vh;
+    background-color: red;
+
+}
+
+.cajaTres{
+    height: 10vh;
+    background-color: blue;
+
+}
+
+.cajaCuatro{
+    height: 100vh;
+    background-color: yellow;
+
+}
+
+/*Media querie*/
+
+
+@media (min-width: 100px) and (max-width: 768px) { 
+    .cajaUno {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 5000px) { 
+    .cajaTres {
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 1199px) { 
+    .cajaCuatro {
+        display: none;
+    }
+
+}
+
